@@ -25,6 +25,7 @@ function buyClicker(){
         clickerIncrease.innerHTML = parsedclickerIncrease
         gpc += parsedclickerIncrease
 
+        
         parsedclickerCost *= 1.1
         clickerCost.innerHTML = Math.round(parsedclickerCost)
     }
